@@ -1,3 +1,18 @@
+
+# EOLES for CF perturbation study
+
+This code is an adaptation of the EOLES model for sensitivity to CF perturbation studies. 
+In this version of the model, simulation is performed for 9 years. To increase the computation speed, the  time resolution decreases to two hours. 
+Ancillary services, hydrogene storage and one of the gas turbines are removed in order to ensure the correspondence between the capacity and dispatch optimisation and dispatch optimization. 
+
+The EOLES model orginally developed by the Behrang Shirizadeh in GAMS.
+You can find it here: https://github.com/BehrangShirizadeh/EOLES_elec_pro_
+
+This model later translated to python by Nilam De Oliveira Gill
+You can find it here: https://gitlab.in2p3.fr/nilam.de_oliveira-gill/eoles
+
+
+
 # Eoles
 
 Eoles model performs optimization of the investment and operation of the energy system in order to minimize the total cost while satisfying energy demand. \
